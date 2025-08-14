@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ustawienia globalne dla ciemnego tła i białej typografii */
+html, body { height: 100%; }
+body { @apply bg-[#0A0A0C] text-white; }
+::selection { background: #fff; color: #000; }
